@@ -1,0 +1,65 @@
+:root{
+    --colorTitle: #DCB78A;
+    --colorText: FFFFFF;
+    --colorBackground:#1D1D1D;
+}
+
+/* *{
+    box-sizing: border-box;
+} */
+
+body {
+    overflow-x: hidden;
+  }
+/* 
+img{
+    max-width: 100%;
+}   */
+
+.btn{
+    padding: 20px 40px;
+    border: 3px solid rgba(220, 183, 138, 0.71);
+    background-color: transparent;
+    color: var(--colorTitle);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--colorTitle);
+    color: #FFFFFF;
+    border-color: var(--colorTitle);
+    opacity: 0.7;
+}
+
+.title{
+    color: #DCB78A;
+    font-family: League Spartan;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 8.4px;
+    text-transform: uppercase;
+}
+
+.text{
+    color: #FFF;
+    font-family: Kirang Haerang;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.2px;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+

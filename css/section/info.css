@@ -1,0 +1,31 @@
+.info{
+    width: 100vw;
+    background-color: var(--colorBackground);
+    height: 557px;
+    padding: 80px;
+}
+
+.info__title{
+    display: flex;
+    justify-content: center;
+    transform: translateX(-89px);
+
+}
+
+
+.info__text{
+    text-align: center;
+    margin-top: 50px;
+    transform: translateX(-89px);
+
+}
+
+.info .btn{
+    margin: 29px;
+    transform: translateX(365px);
+
+} 
+
+.info__contant{
+    position: relative;
+}

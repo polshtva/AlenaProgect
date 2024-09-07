@@ -1,0 +1,58 @@
+.plan {
+    margin-top: 103px;
+}
+.plan__main-title{
+    color: #000;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.container {
+}
+.container__plan {
+    max-width: 1400px;
+}
+.plan__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 164px;
+    margin-top: 100px;
+    transform: translateX(-17px);
+}
+.plan__item {
+    list-style: none;
+    max-width: 579px;
+    display: flex;
+    gap:30px;
+}
+.plan__icon {
+    width: 190px;
+    flex-shrink: 0;
+}
+.plan__block {
+}
+.plan__title {
+    color: #000;
+    font-family: League Spartan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 106.25% */
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+.plan__text {
+    color: #212123;
+    font-family: Kirang Haerang;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+    margin-top: 17px;
+}

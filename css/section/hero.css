@@ -1,0 +1,93 @@
+.hero {
+    background-image: url(../../img/hero/room.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 120vh; 
+    position: relative;
+}
+
+
+
+
+.hero__info{
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.41);
+    height: 100%;
+    position: absolute;
+    animation: appearBlock 2s 1;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes appearBlock {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+.nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 35px;
+}
+
+.nav__item{
+    list-style: none;
+    font-size: 13px;
+    opacity: 0.7;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav__item:hover{
+    color: var(--colorTitle);
+    opacity: 0.7;
+}
+
+.hero__main-title{
+    color: rgba(220, 183, 138, 0.79);
+    text-align: right;
+    font-family: League Spartan;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 10.5px;
+    text-transform: uppercase;
+    margin-top: 35%;
+}
+
+.hero__name-title{
+    color: #AAA7A7;
+    text-align: right;
+    font-family: Kodchasan;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.hero__text{
+    opacity: 0.6;
+    margin-top: 85px;
+    width: 568px;
+    transform: translateX(123px);
+    width: 750px;
+}

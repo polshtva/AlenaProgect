@@ -1,0 +1,46 @@
+.footer{
+    width: 100vw;
+    background-color: var(--colorBackground);
+    margin-top: 850px;
+    padding: 0 0 66px 0;
+}
+
+.footer__contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer__main-title{
+    margin-top: 54px;
+    font-size: 39px;
+}
+
+.footer__name-title{
+    font-size: 16px;
+}
+
+.footer__nav{
+    margin-top: 37px;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 42.35px;
+}
+
+.footer__item{
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer__icons{
+    margin-top: 72.2px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    transform: translateX(5%);
+    cursor: pointer;
+}
